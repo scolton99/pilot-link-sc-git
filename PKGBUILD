@@ -6,6 +6,7 @@ pkgrel='1'
 pkgdesc='pilot-link'
 arch=('x86_64')
 license=('GPL-2.0-only' 'LGPL-2.1-only' 'GPL-3.0-only' 'LGPL-3.0-only')
+provides=('pilot-link')
 depends=('bluez-libs')
 makedepends=('git')
 options=('!libtool' 'staticlibs' '!buildflags' 'debug')
